@@ -1,0 +1,18 @@
+#spring:
+#  data:
+#    mongodb:
+#      database: teste
+##      uri: mongodb://root:example@mongo:27017/?socketTimeoutMS=30000&connectTimeoutMS=30000&waitQueueTimeoutMS=30000&maxIdleTimeMS=30000&wtimeoutMS=30000&readPreference=secondaryPreferred
+#      uri: mongodb://root:example@mongo:27017/
+#
+#
+
+
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:example@localhost:27017
+      database: teste
