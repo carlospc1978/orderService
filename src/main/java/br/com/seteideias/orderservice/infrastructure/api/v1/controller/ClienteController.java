@@ -1,4 +1,4 @@
-package br.com.seteideias.orderservice.controller;
+package br.com.seteideias.orderservice.infrastructure.api.v1.controller;
 
 import br.com.seteideias.orderservice.domain.Cliente;
 import br.com.seteideias.orderservice.repository.ClienteRepository;
@@ -35,7 +35,7 @@ public class ClienteController {
         }
 
         Cliente cliente1 = new Cliente();
-        cliente1.setId("cliente.get().getId()");
+        cliente1.setCpf("cliente.get().getId()");
         cliente1.setNomeTeste("cliente.get().getNomeTeste()");
 
         return cliente1;

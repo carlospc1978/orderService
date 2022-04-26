@@ -11,5 +11,9 @@ public class Cliente {
     @Id
     private String id;
 
+    private String identificacaoPDV;
+
+    private String cpf;
+
     private String nomeTeste;
 }

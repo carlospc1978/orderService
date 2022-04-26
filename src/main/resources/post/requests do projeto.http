@@ -1,0 +1,11 @@
+###
+GET http://localhost:8080/cliente
+
+###
+POST http://localhost:8080/cliente/post/
+Content-Type: application/json
+
+{
+  "cpf": "21457627876",
+  "nomeTeste": "Carlos"
+},
