@@ -1,4 +1,4 @@
-package br.com.seteideias.orderservice.controller;
+package br.com.seteideias.orderservice.infrastructure.api.v1.controller;
 
 import br.com.seteideias.orderservice.domain.Cliente;
 import br.com.seteideias.orderservice.repository.ClienteRepository;
