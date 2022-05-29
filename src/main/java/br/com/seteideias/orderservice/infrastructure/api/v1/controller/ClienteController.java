@@ -29,7 +29,6 @@ public class ClienteController {
 
         Optional<Cliente> cliente = repository.findById(id);
 
-
         if (cliente.isPresent()) {
             return cliente.get();
         }
@@ -46,4 +45,5 @@ public class ClienteController {
         log.info("cliente " + cliente.toString());
         repository.save(cliente);
     }
+
 }

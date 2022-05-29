@@ -7,13 +7,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @Document(collection = "cliente")
 public class Cliente {
-
     @Id
     private String id;
-
     private String identificacaoPDV;
-
     private String cpf;
-
     private String nomeTeste;
 }
